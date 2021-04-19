@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'SXPlayer_Example' do
+  pod 'SXPlayer', :path => '../'
+  pod 'SDWebImage'
+  target 'SXPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,44 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+  - SXBaseKit/SXCommonKit (0.1.0):
+    - Masonry (~> 1.1.0)
+    - ReactiveObjC (~> 3.1.1)
+  - SXBaseKit/SXUIKit (0.1.0):
+    - SXBaseKit/SXCommonKit
+  - SXPlayer (0.1.0):
+    - SXBaseKit/SXCommonKit
+    - SXBaseKit/SXUIKit
+    - TXLiteAVSDK_Player (= 7.4.9203)
+  - TXLiteAVSDK_Player (7.4.9203)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SXPlayer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - ReactiveObjC
+    - SDWebImage
+    - SXBaseKit
+    - TXLiteAVSDK_Player
+
+EXTERNAL SOURCES:
+  SXPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  SXBaseKit: 9ec93f22294e23348921342b453b12321d3f21b8
+  SXPlayer: b6c99bbeaa0556ba84d79a726c280795d32fce02
+  TXLiteAVSDK_Player: 8452cc0a8fefcba329dea6bd3f8119c76538eee4
+
+PODFILE CHECKSUM: 4da0c861d5dd9da5da66923a00f16c55ae3b2cd1
+
+COCOAPODS: 1.8.4
